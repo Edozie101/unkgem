@@ -1,24 +1,15 @@
 class Unk
-  VERSION = "0.0.1"
+  VERSION = "0.0.3"
   def self.hi(language = "english")
     translator = Translator.new(language)
     translator.hi
   end
+  def self.options(name)
+    puts "Hello #{name} I see you are pretty busy studying, Just thought I (Edozie) should tell you I love you babe"
+    sleep 2
+    puts "The purpose of this gem is Unknown, hence the name"
+    sleep 2
+  end
 
 end
-
-class Unk::Translator
-  def initialize(language)
-    @language = language
-  end
-  def hi
-  case @language
-    when "english"
-      puts "hello world"
-    when "spanish"
-      puts "hola mundo"
-    else
-      puts "hello world"
-    end
-  end
-end
+require "unk/translator.rb"

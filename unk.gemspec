@@ -28,9 +28,9 @@ Gem::Specification.new do |spec|
 
 
   #files
-  spec.files = ["lib/unk.rb"]
+  spec.files = ["lib/unk.rb","lib/unk/translator.rb"]
   #executable binaries
-  spec.executables = ["bin/unk"]
+  spec.executables << 'unk'
   #test files
   spec.test_files = ["tests/test_unk.rb"]
   #require paths
