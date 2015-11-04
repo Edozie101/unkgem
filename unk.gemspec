@@ -35,6 +35,7 @@ Gem::Specification.new do |spec|
   spec.test_files = ["tests/test_unk.rb"]
   #require paths
   spec.require_paths = ["lib"]
-
+  spec.add_runtime_dependency  'mechanize'
+  spec.add_development_dependency  'mechanize'
 
   end
