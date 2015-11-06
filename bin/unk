@@ -1,3 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'unk'
+
+puts Unk.options(ARGV[0])
+
+
+
+
 #firstly you want your hashtag bin bash here so that *nix shells understand that it  is suppossed 
 # to be interpreted by the bash script. 
 
@@ -13,6 +22,6 @@ require 'NAME'    <--- this is the name of the gem maybe the file  (havent teste
 #a terminal  command.... 
 
 
-Name.function(ARGV[0],ARGV[1])
+#Name.function(ARGV[0],ARGV[1])
 
 
