@@ -36,6 +36,6 @@ Gem::Specification.new do |spec|
   #require paths
   spec.require_paths = ["lib"]
   spec.add_runtime_dependency  'mechanize'
-  spec.add_development_dependency  'mechanize'
+  spec.add_runtime_dependency 'open-uri'
 
   end
