@@ -12,11 +12,14 @@ puts Unk.options(ARGV[0])
 
  
 
-#!/bin/bash 
+#!/usr/bin/env ruby 
+
+
+ 
 
 #then you want to require your file or whatever you want to make your ruby  script useful  
 
-require 'NAME'    <--- this is the name of the gem maybe the file  (havent tested that out yet)
+#require 'NAME'    <--- this is the name of the gem maybe the file  (havent tested that out yet)
 
 #afterwards you want to make a bunch or ARGV[X] arguments so that you can succesfully carry out 
 #a terminal  command.... 
