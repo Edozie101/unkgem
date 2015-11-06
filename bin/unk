@@ -1,5 +1,18 @@
-#!/usr/bin/env ruby
+#firstly you want your hashtag bin bash here so that *nix shells understand that it  is suppossed 
+# to be interpreted by the bash script. 
 
-require 'unk'
+ 
 
-puts Unk.options(ARGV[0])
+#!/bin/bash 
+
+#then you want to require your file or whatever you want to make your ruby  script useful  
+
+require 'NAME'    <--- this is the name of the gem maybe the file  (havent tested that out yet)
+
+#afterwards you want to make a bunch or ARGV[X] arguments so that you can succesfully carry out 
+#a terminal  command.... 
+
+
+Name.function(ARGV[0],ARGV[1])
+
+
